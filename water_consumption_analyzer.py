@@ -42,35 +42,3 @@ print("\nWATER CONSUMPTION ANALYSIS REPORT")
 print('-----------------------------------')
 display=pd.Series(blah,index=[' Total Water Consumption: ',' Average Water Consumption: ',' Maximum Consumption Month: ',' Minimum Consumption Month: '])
 print(display.to_string())
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# max acceptable usage for: water=219000 l per year
-# water_usage_score=(219000-sum(water_usage))/219000 *100
-# draw a line graph:
-# x=['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEPT','OCT','NOV','DEC']
-# y=water_usage
-# plt.plot(x,y,color='blue')
-# plt.title("WATER CONSUMPTION ANALYSIS")
-# plt.xlabel("MONTHS")
-# plt.ylabel('USAGE (in Litres)')
-# plt.show()
-# print(f'Water Usage Score = {water_usage_score}')
